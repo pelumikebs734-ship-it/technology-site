@@ -50,6 +50,13 @@ ul {
   transition: 0.25s ease;
 }
 
+
+.btn:hover {
+  background: #444;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+}
+
 .primary {
   background: #0067b8;
   color: white;
@@ -306,6 +313,7 @@ ul {
   border: 0;
   font-size: 15px;
   color: #fff;
+  
 }
 
 /* HERO BUTTONS */
